@@ -1,1 +1,26 @@
-// app global css in SCSS form
+// Global Styles
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Zeyada&display=swap');
+
+.zen-ink-text {
+  font-family: 'Zeyada', cursive;
+  line-height: 1.2;
+}
+
+.font-mono {
+  font-family: 'VT323', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #f5f2ed;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
